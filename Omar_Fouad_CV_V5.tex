@@ -1,0 +1,278 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Omar Fouad Zayed} \\ \vspace{1pt}
+    \small +20 1555507000 $|$ \href{mailto:x@x.com}{\underline{omar.fouad2004@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{\textcolor{blue}{https://www.linkedin.com/in/omarfouadzayed/}}} $|$
+    \href{https://github.com/f0fo}{\underline{\textcolor{blue}{GitHub Profile}}} .
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {German University in Cairo}{Cairo, Egypt}
+      {Bachelor of Engineering in Computer engineering}{May 2021 -- Present}
+    \resumeSubheading
+      {German International University in Berlin}{Berlin, Germany}
+      {Bachelor of Engineering in Computer engineering, Student Exchange program}{March 2024 -- June 2025}
+    
+
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+
+
+
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+   % \resumeSubheading
+    %  {Junior Software Developer}{2022 -- Present}
+     % {Quartz Apps LLC.}{Wyoming, USA, \textit{Remote}}
+     % \resumeItemListStart
+      %  \resumeItem{Maintained and updated User data used for various service}
+       % \resumeItem{Developed a game played on Discord}
+        %\resumeItem{Designed other game ideas to be served as a conceptual starting point }
+      %\resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+     \resumeSubheading
+        {Software Engineer}{October 2025 -- Present}{Forsa Prop}{Cairo, Egypt}
+        \resumeItemListStart
+         \resumeItem{Data scraping and processing solutions using Python}
+          \resumeItem{Both frontend and backend web development using JavaScript and Node.js}
+          \resumeItem{Deployment and maintenance of web applications on cloud services using cloudflare and railway}
+     \resumeItemListEnd
+
+     \resumeSubheading
+        {Unity Game Development Internship}{July 2025 -- October 2025}{Phantasm Solutions}{Cairo, Egypt}
+        \resumeItemListStart
+         \resumeItem{Both theoritical game design of systems and hands on C\# development}
+         \resumeItem{worked on creating game environment and backbone systems as well as NPC AI and interactions}
+     \resumeItemListEnd
+
+     \resumeSubheading
+        {IT Internship}{May 2025 -- June 2025}{British University in Egypt}{Cairo, Egypt}
+        \resumeItemListStart
+         \resumeItem{worked with all IT departments including networking, development and cloud services}
+     \resumeItemListEnd
+    
+
+    \resumeSubheading
+      {Software Development Internship}{July 2023 -- August 2023}
+      {Schneider Electric}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{Back-end developed and deployed an on-boarding web application for new employees}
+        \resumeItem{Created multiple test cases for Manual Functionality testing and a reporting structure}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Organizational Wing Director}{2021 -- 2024}
+      {Vector Game Studio - Extra Curricular Student Activity}{Cairo, Egypt}
+      \resumeItemListStart
+      \resumeItem{Scouted, Enlisted, Trained and managed multiple different teams of talented people to produce a productive work environment}
+      \resumeItemListEnd
+
+
+
+
+    
+
+  \resumeSubHeadingListEnd
+
+
+%-Projects go here
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+        {\textbf{Feed Forward Neural Netowrk [CSEN1121]} $|$ \emph{Python}}{2025}
+        \resumeItemListStart
+            \resumeItem{implemented a feed forward neural network from scratch}
+        \resumeItemListEnd
+
+       \resumeProjectHeading
+        {\textbf{Implementing ONNs in Texture Generation ML models  [Bachelor]} $|$ \emph{PyTorch}}{2025}
+        \resumeItemListStart
+            \resumeItem{Investigated multiple complex texture generating ML models }
+            \resumeItem{Integrated Operational Neural Networks into the architecture of one of the model}
+            
+        \resumeItemListEnd
+      \resumeProjectHeading
+      {\textbf{Pathfinder [CSEN704]} $|$ \emph{PyTorch}}{2024}
+        \resumeItemListStart
+            \resumeItem{MERN Stack project to create a travel panning and booking web application }
+            \resumeItem{Used 3rd party APIs to fetch hotel and flight data and bookings as well as simulate payments}
+        \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Dockerized Webcrawler [Personal]} $|$ \emph{Scrapy,PostgreSQL,Docker}}{2024}
+        \resumeItemListStart
+            \resumeItem{Web crawler using scrapy on an event booking site, data Pipelined into a Postgres DB}
+            \resumeItem{WebCrawler and DB were hosted on seperate containers and run using Docker Composite}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{University Advising System [DB502]} $|$ \emph{SQL, React}}{2024}
+          \resumeItemListStart
+            \resumeItem{Developed and implemented a full relational database Schema manually }
+            \resumeItem{Designed Front-end UI using Figma and implemented using react}
+          \resumeItemListEnd
+      
+      % \resumeProjectHeading
+      %     {\textbf{The Walking Dead [CSEN401]} $|$ \emph{Java, Javafx}}{2023}
+      %     \resumeItemListStart
+      %       \resumeItem{Developed a game engine fully coded in Java without any builders }
+      %     \resumeItemListEnd
+          
+      
+
+        
+          
+    \resumeSubHeadingListEnd
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, SQL, JavaScript, C\#, ProLog, Haskell} \\
+     \textbf{Frameworks}{: Scrapy, Node.js, JUnit, .NET core} \\
+     \textbf{Developer Tools}{: Docker, Git, VS Code, Visual Studio, Eclipse, Spyder, Slack, Trello, MongoDB} \\
+     
+    }}
+ \end{itemize}
+
+%
+
+\end{document}
